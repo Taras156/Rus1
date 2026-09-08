@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*Фон сайта*/
+    background-color: #ffe2b0;
+}
+
+.div1 {
+    display: inline;
+}
+
+a {
+    /* color - Цвет текста*/
+    color: black;
+
+    /*text-decoration -меняет стиль ссылки
+    (пример зачеркнутая подчеркнуя и без ничего)*/
+    text-decoration: none;
+
+    /*меняет размер теста*/
+    font-size: 25px;
+
+}
+
+ul {
+    /*list-style-type указывает вид маркера для элементов списка*/
+    list-style-type: none;
+
+    /*text-align - выравнивание в любом месте сайта*/
+    text-align: center;
+
+    /*Отступы внутри*/
+    padding: 0px;
+}
+
+
+li {
+    display: inline;
+    /*отступы между названиями в навигационном окне*/
+    margin-right: 50px;
+}
+
+/*При навидение на ссылки ссылка будет отображаться красным*/
+a:hover {
+    color: red;
+}
+
+/*фон для сайта главная*/
+.section-about {
+    /*Высота фона 640px*/
+    height: 640px;
+    background: url('D:/файлы/сайт панорамы/2/scr/img/DSC_0059.jpg') center/cover no-repeat;
+
+    padding-top: 200px;
+
+    /*отступ от главного вкладки вниз*/
+    margin-bottom: 60px;
+}
+
+/*Галерея------------------------------------------------------------------------------------------*/
+
+.photo {
+    width: 100%;
+    height: 10000px;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    margin-bottom: 20px;
+}
+
+.photo_text {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5 {
+    width: 100%;
+    height: auto;
+}
+
+.map_text {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    float: left;
+    margin-right: 150px;
+}
+
+.map_text {
+    margin: 0px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding-left: 250px;
+}
+
+.map__text_1 {
+    margin: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.map__text_2,
+.map__text_3,
+.map__text_4,
+.map__text_5 {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
