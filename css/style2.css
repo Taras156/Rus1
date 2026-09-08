@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe2b0;
+}
+
+.photo_pk {
+    margin: 0px;
+    padding-left: 200px;
+}
+
+.photo_text {
+    color: #fff;
+    margin: 0px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.photo_pk_1,
+.photo_pk_2,
+.photo_pk_3,
+.photo_pk_4,
+.photo_pk_5,
+.photo_pk_6,
+.photo_pk_7,
+.photo_pk_8,
+.photo_pk_9,
+.photo_pk_10,
+.photo_pk_11,
+.photo_pk_12,
+.photo_pk_13 {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
